@@ -1,0 +1,16 @@
+.myNavBar {
+  background-color: #069;
+  color: #fff;
+  padding: 50px;
+}
+
+.myNavBar li {
+  color: #fff;
+}
+
+footer {
+  background: #069;
+  text-align: center;
+  margin-top: 500px;
+  padding: 20px;
+}
