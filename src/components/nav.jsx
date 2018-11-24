@@ -31,7 +31,7 @@ export default class Navigation extends Component {
     return (
       <div>
         <Navbar light expand="md" className="myNavBar">
-          <NavbarBrand href="/">BBC News Dispaser</NavbarBrand>
+          <NavbarBrand href="/"><img src="logo.png" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -39,7 +39,7 @@ export default class Navigation extends Component {
                 <NavLink href="/components/">Headlines</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Politics</NavLink>
+                <NavLink href="/components/header">Politics</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
