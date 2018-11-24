@@ -2,6 +2,7 @@
   background-color: #069;
   color: #fff;
   padding: 50px;
+  margin-bottom: 30px;
 }
 
 .myNavBar li {
@@ -11,6 +12,6 @@
 footer {
   background: #069;
   text-align: center;
-  margin-top: 500px;
+  margin-top: 10px;
   padding: 20px;
 }
